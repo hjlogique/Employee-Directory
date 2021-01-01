@@ -1,0 +1,164 @@
+[
+  {
+    "id": 1,
+    "image": "https://pickaface.net/gallery/avatar/RonaTyger5214de5508b5b.png",
+    "name": "Laura Davidson",
+    "title": "Staffing coordinator",
+    "department": "Human Resources",
+    "email": "laura.davidson@email.com",
+    "phone": "571-555-2111"
+  },
+  {
+    "id": 2,
+    "image": "https://pickaface.net/gallery/avatar/unr_kontox_201231_1202_bxw4.png",
+    "name": "John Harrison",
+    "title": "Software Architect",
+    "department": "Software Development",
+    "email": "john.harrison@email.com",
+    "phone": "571-555-2112"
+  },
+  {
+    "id": 3,
+    "image": "https://pickaface.net/gallery/avatar/unr_laila_201228_0805_zagr5.png",
+    "name": "Jenifer Robinson",
+    "title": "Graphic Designer",
+    "department": "Art & Design",
+    "email": "jenifer.robinson@email.com",
+    "phone": "571-555-2113"
+  },
+  {
+    "id": 4,
+    "image": "https://pickaface.net/gallery/avatar/unr_gluty_201225_0201_whtni.png",
+    "name": "Richard McKoy",
+    "title": "Director",
+    "department": "Marketing",
+    "email": "richard.mckoy@email.com",
+    "phone": "571-555-2114"
+  },
+  {
+    "id": 5,
+    "image": "https://pickaface.net/gallery/avatar/unr_mamamevlude_201225_0045_bnjs.png",
+    "name": "Andrea Riaz",
+    "title": "QA Tester",
+    "department": "Quality Assurance",
+    "email": "andrea.riaz@email.com",
+    "phone": "571-555-2115"
+  },
+  {
+    "id": 6,
+    "image": "https://pickaface.net/gallery/avatar/20130403_051452_1280_Gwlibert.png",
+    "name": "Albert Reinhart",
+    "title": "Circuits Engineer",
+    "department": "Engineering",
+    "email": "albert.reinhart@email.com",
+    "phone": "571-555-2116"
+  },
+  {
+    "id": 7,
+    "image": "https://pickaface.net/gallery/avatar/20130404_185046_2673_Mia.png",
+    "name": "Kristina Shirey",
+    "title": "Project Manager",
+    "department": "Management",
+    "email": "kristina.shirey@email.com",
+    "phone": "571-555-2117"
+  },
+  {
+    "id": 8,
+    "image": "https://pickaface.net/gallery/avatar/unr_zion_201219_0350_8jbdbi.png",
+    "name": "Henry Harrington",
+    "title": "Software Engineer",
+    "department": "Software Development",
+    "email": "henry.harrington@email.com",
+    "phone": "571-555-2118"
+  },
+  {
+    "id": 9,
+    "image": "https://pickaface.net/gallery/avatar/unr_barb_190909_2158_yc16c.png",
+    "name": "Angella Michelle",
+    "title": "Sales Consultant",
+    "department": "Sales",
+    "email": "angella.michelle@email.com",
+    "phone": "571-555-2119"
+  },
+  {
+    "id": 10,
+    "image": "https://pickaface.net/gallery/avatar/20120415_131126_549_drinhoff.png",
+    "name": "Ray Damingo",
+    "title": "Instructional Designer",
+    "department": "Training",
+    "email": "ray.damingo@email.com",
+    "phone": "571-555-2120"
+  },
+  {
+    "id": 11,
+    "image": "https://pickaface.net/gallery/avatar/annameganpsych564687170524a.png",
+    "name": "Susanna Mario",
+    "title": "HR Administrator",
+    "department": "Human Resources",
+    "email": "susanna.mario@email.com",
+    "phone": "571-555-2121"
+  },
+  {
+    "id": 12,
+    "image": "https://pickaface.net/gallery/avatar/unr_eronnayr_190115_1951_w00is.png",
+    "name": "Eric Norman",
+    "title": "Multimedia Designer",
+    "department": "Art & Design",
+    "email": "eric.norman@email.com",
+    "phone": "571-555-2122"
+  },
+  {
+    "id": 13,
+    "image": "https://pickaface.net/gallery/avatar/annamagda534f6277b0942.png",
+    "name": "Maria Delmarra",
+    "title": "Sales Executive",
+    "department": "Sales",
+    "email": "maria.delmarra@email.com",
+    "phone": "571-555-2123"
+  },
+  {
+    "id": 14,
+    "image": "https://pickaface.net/gallery/avatar/unr_gard_201219_0222_2zhtd.png",
+    "name": "Hubert Green",
+    "title": "Systems Manager",
+    "department": "Management",
+    "email": "hubert.green@email.com",
+    "phone": "571-555-2124"
+  },
+  {
+    "id": 15,
+    "image": "https://pickaface.net/gallery/avatar/94816492_170903_0913_zim2i.png",
+    "name": "Monica Royal",
+    "title": "Application Programmer",
+    "department": "Software Development",
+    "email": "monica.royal@email.com",
+    "phone": "571-555-2125"
+  },
+  {
+    "id": 16,
+    "image": "https://pickaface.net/gallery/avatar/KailaveFernan548ea1f3a23a5.png",
+    "name": "Hakan Ozoglu",
+    "title": "Network Engineer",
+    "department": "Engineering",
+    "email": "hakan.ozoglu@email.com",
+    "phone": "571-555-2126"
+  },
+  {
+    "id": 17,
+    "image": "https://pickaface.net/gallery/avatar/unr_beth_170322_0018_2o6qlnv.png",
+    "name": "Sepideh Arman",
+    "title": "Accontant Supervisor",
+    "department": "Finance",
+    "email": "sepideh.arman@email.com",
+    "phone": "571-555-2127"
+  },
+  {
+    "id": 18,
+    "image": "https://pickaface.net/gallery/avatar/wale444453b9eb90a6a28.png",
+    "name": "Mark Ross",
+    "title": "Product Lead",
+    "department": "Management",
+    "email": "mark.ross@email.com",
+    "phone": "571-555-2128"
+  }
+]
