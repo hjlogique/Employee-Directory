@@ -4,9 +4,9 @@
 import React from "react";
 import EmployeeInfo from "./EmployeeInfo";
 
-function EmployeesList({ data }) {
+function EmployeesList({ employeesData }) {
     return (
-        data.map(employee => (
+        employeesData.map(employee => (
             <EmployeeInfo key={employee.id}
                 image={employee.image}
                 name={employee.name}

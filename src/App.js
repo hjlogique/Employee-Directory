@@ -2,7 +2,7 @@
 //::::::::::::::: App.js ::::::::::::::::
 
 import React, { useState } from 'react';
-import employeesData from "./data/employees.json";
+import employees from "./data/employees.json";
 import EmployeesList from "./components/EmployeesList";
 import SearchSort from "./components/SearchSort";
 import Header from "./components/Header";
@@ -11,8 +11,11 @@ import Main from "./components/Main";
 
 function App() {
 
-    const [data, setEmployeesData] = useState(employeesData);
-    const [sorted, setSortedData] = useState(false);
+    // Use State Hook to declare new state variables 
+    // and manage SearchSort function component
+
+    const [employeesData, setEmployeesData] = useState(employees);
+    const [sortedData, setSortedData] = useState(false);
     const [searchQuery, setSearchQuery] = useState("");
 
     function handleSearchQuery(event) {
@@ -22,30 +25,33 @@ function App() {
     // Sort first names in ascending/descending order 
     function handleSortNames() {
 
-        if (!sorted) {
-            setEmployeesData(data.sort((a, b) => (a.name > b.name) ? 1 : -1));
+        if (!sortedData) {
+            setEmployeesData(employeesData.sort((a, b) => (a.name > b.name) ? 1 : -1));
             setSortedData(true);
         } else {
-            setEmployeesData(data.sort((a, b) => (a.name > b.name) ? -1 : 1));
+            setEmployeesData(employeesData.sort((a, b) => (a.name > b.name) ? -1 : 1));
             setSortedData(false);
         }
     }
 
     // Sort departments in ascending/descending order
     function handleSortDepts() {
-        if (!sorted) {
-            setEmployeesData(data.sort((a, b) => (a.department > b.department) ? 1 : -1));
+        if (!sortedData) {
+            setEmployeesData(employeesData.sort((a, b) => (a.department > b.department) ? 1 : -1));
             setSortedData(true);
         } else {
-            setEmployeesData(data.sort((a, b) => (a.department > b.department) ? -1 : 1));
+            setEmployeesData(employeesData.sort((a, b) => (a.department > b.department) ? -1 : 1));
             setSortedData(false);
         }
     }
 
     // Search: Filter first name(s) starting with the entered string in the Search field
     // handleSearchQuery and searchQuery are passed down to the child SearchSort component through props 
-    // EmployeesList is updated with the filteredList data through the data prop
-    const filteredList = data.filter(employee => employee.name.toLowerCase().startsWith(searchQuery.toLowerCase()));
+    // EmployeesList is updated with the filteredList data through the employeesData prop
+    const filteredList = employeesData.filter(employee => employee.name.toLowerCase().startsWith(searchQuery.toLowerCase()));
+    // If the searched query does not exist, display a message
+    let message;
+    (filteredList.length === 0) ? message = "No Employee found!" : message = "";
     return (
         <div>
             <Header />
@@ -55,7 +61,8 @@ function App() {
                     handleSortDepts={handleSortDepts}
                     onSearch={handleSearchQuery}
                     searchQuery={searchQuery} />
-                <EmployeesList data={filteredList} />
+                <EmployeesList employeesData={filteredList} />
+                <p className="message">{message}</p>
                 <Footer />
             </Main>
         </div>
