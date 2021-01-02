@@ -32,7 +32,7 @@
 
    Above the table on the left, the two `Sort Names` and `Sort Depts` buttons sort the list of employees by their first names and departments respectively. The default sorting is ascending and it can be changed to descending by toggling the buttons.
    
-   On the right, by entering any letter in the `Search by first name` entry field, the list of the employees is updated accordingly (see the screenshots below). If no employee with entered terms are found, a message is displayed reading: `No Employee found!`.
+   On the right, by entering any letter in the `Search by first name` entry field, the list of the employees is updated accordingly (see the screenshot below). If no employee with entered terms are found, a message is displayed reading: `No Employee found!`.
    
   ![image 1](/screenshots/img1.png)
 
