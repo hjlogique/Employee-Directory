@@ -34,7 +34,7 @@
    
    On the right, by entering any letter in the `Search by first name` entry field, the list of the employees is updated accordingly (see the screenshot below). If no employee with entered terms are found, a message is displayed reading: `No Employee found!`. 
 
-   To view the `REACT EMPLOYES DIRECTORY` app on GitHub [click here.](https://hjlogique.github.io/Employee-Directory/) 
+   The `REACT EMPLOYEE DIRECTORY` app is deployed to GitHub pages, [click here to go to the app.](https://hjlogique.github.io/Employee-Directory/) 
    
   ![image 1](/screenshots/img1.png)
 
